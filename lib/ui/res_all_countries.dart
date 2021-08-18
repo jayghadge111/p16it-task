@@ -11,7 +11,7 @@ class ResAllCountries {
   int _population;
   List<int> _latlng;
   String _demonym;
-  int _area;
+  double _area;
   double _gini;
   List<String> _timezones;
   List<String> _borders;
@@ -37,7 +37,7 @@ class ResAllCountries {
         int population,
         List<int> latlng,
         String demonym,
-        int area,
+        double area,
         double gini,
         List<String> timezones,
         List<String> borders,
@@ -100,8 +100,8 @@ class ResAllCountries {
   set latlng(List<int> latlng) => _latlng = latlng;
   String get demonym => _demonym;
   set demonym(String demonym) => _demonym = demonym;
-  int get area => _area;
-  set area(int area) => _area = area;
+  double get area => _area;
+  set area(double area) => _area = area;
   double get gini => _gini;
   set gini(double gini) => _gini = gini;
   List<String> get timezones => _timezones;

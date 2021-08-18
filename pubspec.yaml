@@ -18,6 +18,7 @@ dependencies:
   flutter_svg: ^0.22.0
   fluttertoast: null
   google_fonts: null
+  dio: null
 
 dev_dependencies:
   flutter_test:
